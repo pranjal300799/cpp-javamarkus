@@ -1,0 +1,5 @@
+hello world 
+i am setting up on a journey to master c++ and java
+and this repository will track my daily progress that 
+i will make along the way
+so best of luck to me
