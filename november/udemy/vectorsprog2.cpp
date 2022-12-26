@@ -28,8 +28,8 @@ int main()
     cout<<vector_2d.at(0).at(0)<<"'\t'"<<vector_2d.at(0).at(1)<<endl;
     cout<<vector_2d.at(1).at(0)<<"'\t'"<<vector_2d.at(1).at(1)<<endl;
     vector1.at(0)=1000;
-    cout<<vector_2d.at(0).at(0)<<" "<<vector_2d.at(0).at(1)<<endl;
-
+    cout<<vector_2d.at(0).at(0)<<" "<<vector_2d.at(0).at(1)<<endl;//did not change from 10 to 1000 cause when pushing a element into a vector it creates a copy of the element(or even if you are pushing a vector)
+    cout<<vector1.at(0)<<'\t'<<vector1.at(1)<<endl;
     
 }//point regarding the call by value
 //a 2d vector is a vector of vectors
